@@ -1,0 +1,80 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  background-color: #1e90ff;
+  height: 35rem;
+  width: 50rem;
+  padding: 1rem;
+  border-radius: 2px;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  gap: 3rem;
+  font-size: 1.75rem;
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.input {
+  width: 30rem;
+  height: 3rem;
+  border-radius: 2px;
+  border: none;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.translatebtn {
+  margin-left: 2rem;
+  width: 7rem;
+  height: 3rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.translatebtn:hover {
+  color: black;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.translatebtn:focus {
+  transform: translateY(-1px);
+}
